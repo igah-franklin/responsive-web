@@ -226,4 +226,27 @@ color: var(--VeryPaleCyan);
     width: 100%;
     padding: 0px;
   }
+  .service_one, .service_two, .service_three{
+    padding: 2rem;
+  }
+  .service_flex:nth-child(even){
+    flex-direction: column;
+    }
+    .community{
+      width: 100%;
+      padding-top: 3rem;
+      text-align: center;
+      margin-top: 0px;
+    }
+    footer{
+      height: auto;
+      margin-top: 6rem;
+    }
+    .footer_cover{
+      /* justify-content: flex-start; */
+    }
+    .col{
+      width: 100%;
+      margin-top: 2rem;
+    }
 }
