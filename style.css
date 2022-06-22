@@ -205,3 +205,25 @@ color: var(--VeryPaleCyan);
   font-size: 15PX;
   
 }
+
+@media(max-width:375px){
+  .container{
+    width: 90%;
+  }
+  .flex{
+    flex-direction: column;
+  }
+  .hero_text, .hero_img{
+    width: 100%;
+  }
+  .hero_img{
+    margin-top: 30px;
+  }
+  .service_flex{
+    flex-direction: column;
+  }
+  .service_text, .service_img{
+    width: 100%;
+    padding: 0px;
+  }
+}
