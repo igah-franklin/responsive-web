@@ -249,4 +249,11 @@ color: var(--VeryPaleCyan);
       width: 100%;
       margin-top: 2rem;
     }
+    .footer4 ul li{
+      margin: 0px 10px 0px 0px;
+    }
+    .copyright{
+      margin-top: 1.5rem;
+      text-align: center;
+    }
 }
